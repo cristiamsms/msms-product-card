@@ -13,8 +13,8 @@ import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'msms-pr
 <ProductCard 
     product={ product }
     initialValues={{
-        count: 6,
-        // maxCount: 10,
+        count: ,
+        maxCount: 10,
     }}
 >
     {

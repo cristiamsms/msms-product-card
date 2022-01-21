@@ -34,6 +34,7 @@ describe('ProductTitle', () => {
     )
     let tree =wrapper.toJSON();
     expect(tree).toMatchSnapshot();
+    
     act(()=>{
         (tree as any).children[2].props.onClick();
 

@@ -13,7 +13,7 @@ const App = () => {
     product={ product }
     initialValues={{
         count: 0,
-        // maxCount: 10,
+         maxCount: 10,
     }}
 >
     {
